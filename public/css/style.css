@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:
+            -1px -1px 0 #ffffff, /* top-left */
+            1px -1px 0 #ffffff,  /* top-right */
+            -1px 1px 0 #ffffff,  /* bottom-left */
+            1px 1px 0 #ffffff;   /* bottom-right */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:
+            -1px -1px 0 #ffffff, /* top-left */
+            1px -1px 0 #ffffff,  /* top-right */
+            -1px 1px 0 #ffffff,  /* bottom-left */
+            1px 1px 0 #ffffff;   /* bottom-right */
+}
+
+div {
+    --width: 700px;
+    width: var(--width);
+    position: absolute;
+    left: calc(50vw - var(--width) / 2);
+    top: 30vh;
+}
